@@ -10,7 +10,7 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 public class ModRenderers {
 	public static void register() {
-		RenderingRegistry.registerEntityRenderingHandler(EntityVanishingPainting.class, renderManager -> new RenderVanishingPainting(renderManager, new ResourceLocation(Apotropaic.MOD_ID, "textures/entity/mod_arrow.png")));
+		RenderingRegistry.registerEntityRenderingHandler(EntityVanishingPainting.class, renderManager -> new RenderVanishingPainting(renderManager, new ResourceLocation(Apotropaic.MOD_ID, "textures/entity/painting.png")));
 	}
 
 }
