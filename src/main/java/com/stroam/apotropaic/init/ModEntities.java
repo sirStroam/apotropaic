@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class ModEntities {
 	public static void registerEntities() {
-		registerEntity(EntityVanishingPainting.class, "paper_talisman", 64, 20, false);
+		//registerEntity(EntityVanishingPainting.class, "paper_talisman", 64, 20, false);
 	}
 
 	public static void addSpawns() {

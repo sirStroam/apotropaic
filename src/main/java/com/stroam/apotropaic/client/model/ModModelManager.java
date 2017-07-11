@@ -208,7 +208,7 @@ public class ModModelManager {
 	 */
 	private void registerItemModels() {
 		// Register items with custom model names first
-		registerItemModel(ModItems.ATTACHABLE, "minecraft:painting");
+		//registerItemModel(ModItems.ATTACHABLE, "minecraft:painting");
 	
 
 

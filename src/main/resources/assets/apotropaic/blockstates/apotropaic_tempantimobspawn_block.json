@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "facing=up": { "model": "apotropaic:papertalisman_blockmodel" },
-        "facing=east": { "model": "apotropaic:papertalisman_blockmodel" },
-        "facing=south": { "model": "apotropaic:papertalisman_blockmodel", "y": 90 },
-        "facing=west": { "model": "apotropaic:papertalisman_blockmodel", "y": 180 },
-        "facing=north": { "model": "apotropaic:papertalisman_blockmodel", "y": 270 }
-    }
-}

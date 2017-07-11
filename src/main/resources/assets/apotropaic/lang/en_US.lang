@@ -2,4 +2,4 @@
 itemGroup.apotropaic=Apotropaic
 
 #Items
-item.apotropaic:painting.name=Painting
+tile.apotropaic:antimobspawn_papertalisman.name=Paper Talisman

@@ -21,14 +21,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.stroam.apotropaic.Apotropaic;
-import com.stroam.apotropaic.entities.EntityVanishingPainting;
+import com.stroam.apotropaic.entities.*;
 import com.stroam.apotropaic.items.*;
 
 @SuppressWarnings("WeakerAccess")
 @ObjectHolder(Apotropaic.MOD_ID)
 public class ModItems {
 	
-	public static final ItemAttachableEntity ATTACHABLE = new ItemAttachableEntity(EntityVanishingPainting.class, "painting");
+	//public static final ItemAttachableEntity ATTACHABLE = new ItemAttachableEntity(EntityVanishingPainting.class, "painting");
 
 
 	/**
@@ -50,7 +50,7 @@ public class ModItems {
 		@SubscribeEvent
 		public static void registerItems(final RegistryEvent.Register<Item> event) {
 			final Item[] items = {
-					ATTACHABLE,
+					//ATTACHABLE,
 			};
 
 			final IForgeRegistry<Item> registry = event.getRegistry();

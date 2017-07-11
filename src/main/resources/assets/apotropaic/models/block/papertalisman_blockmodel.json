@@ -1,7 +1,0 @@
-
-{
-    "parent": "apotropaic:block/papertalisman_wall_blockmodel",
-    "textures": {
-        "all": "apotropaic:blocks/papertalisman_icon"
-    }
-}

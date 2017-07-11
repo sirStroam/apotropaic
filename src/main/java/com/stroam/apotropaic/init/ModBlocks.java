@@ -1,6 +1,7 @@
 package com.stroam.apotropaic.init;
 
 import com.stroam.apotropaic.Apotropaic;
+import com.stroam.apotropaic.blocks.*;
 import com.google.common.base.Preconditions;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -21,9 +22,11 @@ import net.minecraftforge.fml.common.registry.IForgeRegistry;
 import java.util.HashSet;
 import java.util.Set;
 
-@SuppressWarnings("WeakerAccess")
+//@SuppressWarnings("WeakerAccess")
 @ObjectHolder(Apotropaic.MOD_ID)
 public class ModBlocks {
+	
+	public static final BlockTempTalisman PAPER_ANTI_MOB_SPAWN = new BlockTempTalisman();
 
 	@Mod.EventBusSubscriber
 	public static class RegistrationHandler {
@@ -39,7 +42,7 @@ public class ModBlocks {
 			final IForgeRegistry<Block> registry = event.getRegistry();
 
 			final Block[] blocks = {
-					
+					PAPER_ANTI_MOB_SPAWN
 			};
 
 			registry.registerAll(blocks);
@@ -65,7 +68,7 @@ public class ModBlocks {
 		@SubscribeEvent
 		public static void registerItemBlocks(final RegistryEvent.Register<Item> event) {
 			final ItemBlock[] items = {
-					
+					new ItemBlock(PAPER_ANTI_MOB_SPAWN)
 			};
 
 			final IForgeRegistry<Item> registry = event.getRegistry();
