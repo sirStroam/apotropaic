@@ -1,0 +1,6 @@
+{
+    "parent": "block/papertalisman_inventory",
+    "textures": {
+        "texture": "written_papertalisman"
+    }
+}

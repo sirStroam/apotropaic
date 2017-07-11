@@ -1,0 +1,6 @@
+{
+    "parent": "block/papertalisman_activated",
+    "textures": {
+        "texture": "blocks/written_papertalisman"
+    }
+}
